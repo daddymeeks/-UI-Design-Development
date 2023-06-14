@@ -6,7 +6,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-
 }
 
 /* Basic styling */
@@ -40,11 +39,10 @@ nav ul li a {
   font-size: 20px;
   padding: 8px;
   font-weight: 900;
-
 }
+
 nav ul li a:hover {
   color: #8F94C1;
- 
 }
 
 .logo img {
@@ -67,38 +65,42 @@ footer {
   padding: 30px;
   text-align: left;
   margin-top: auto;
+  position: relative; /* Add position relative */
 }
-h1{
+
+h1 {
   font-size: 120px;
   color: #fff;
-
 }
-.slogan{
+
+.slogan {
   color: #fff;
   font-size: 20px;
   background-color: rgba(225, 225, 225, 0.5);
   line-height: 1em;
   border-radius: 30px;
   padding: 10px;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
   width: 45%;
   margin: auto;
 }
-p{
+
+p {
   color: #fff;
   font-size: 22px;
-  
 }
+
 p1 {
   color: #181937;
-  font-size: 40px;
+  font-size: 24px;
 }
+
 p2 {
   color: #fff;
   font-size: 18px;
 }
 
-.big_button{
+.big_button {
   color: #fff;
   text-decoration: none;
   font-size: 30px;
@@ -107,33 +109,36 @@ p2 {
   line-height: 1em;
   border-radius: 30px;
   padding: 10px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  width: 13%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 15%;
   margin: auto;
 }
 
-/* Style all font awesome icons */
+.social-icons {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
 .fa {
-  padding: 20px;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
   padding: 20px;
   font-size: 30px;
-  width: 30px;
+  width: 25px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  margin-left: 1590px;
+  margin-bottom: 10px;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
-
-/* Set a specific color for each brand */
 
 /* Facebook */
 .fa-facebook {
@@ -144,5 +149,14 @@ p2 {
 /* Twitter */
 .fa-twitter {
   background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
   color: white;
 }
