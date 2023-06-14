@@ -80,13 +80,14 @@ h1{
   line-height: 1em;
   border-radius: 30px;
   padding: 10px;
-  padding-bottom: 25px;
+  padding-bottom: 0px;
   width: 45%;
   margin: auto;
 }
 p{
-  color: #181937;
+  color: #fff;
   font-size: 22px;
+  
 }
 p1 {
   color: #181937;
@@ -110,4 +111,38 @@ p2 {
   padding-top: 20px;
   width: 13%;
   margin: auto;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
