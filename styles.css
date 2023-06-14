@@ -1,8 +1,12 @@
 /* CSS reset */
-body, h1, h2, h3, p, ul, li, form, label, input, textarea, button {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
 }
 
 /* Basic styling */
@@ -12,7 +16,7 @@ body {
 }
 
 header {
-  background-color: #111111;
+  background-color: #131313;
   color: #fff;
   padding: 10px;
   display: flex;
@@ -23,24 +27,28 @@ header {
 nav ul {
   list-style-type: none;
   display: flex;
+  padding: 10px;
 }
 
 nav ul li {
   margin-left: 20px; /* Adjust spacing between the navigation links */
 }
 
-nav ul li:first-child {
-  margin-left: 0; /* Remove left margin from the first navigation link */
-}
-
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  font-size: 20px;
+  padding: 8px;
+
+}
+nav ul li a:hover {
+  color: #8F94C1;
+ 
 }
 
 .logo img {
   height: 40px; /* Adjust the height of the logo as needed */
-  margin-right: 5px; /* Add some spacing between the logo and text */
+  margin-left: 15px;
 }
 
 .logo span {
@@ -53,8 +61,36 @@ main {
 }
 
 footer {
-  background-color: #111111;
+  background-color: #131313;
   color: #fff;
+  padding: 30px;
+  text-align: left;
+  margin-top: auto;
+}
+h1{
+  font-size: 120px;
+  color: #fff;
+}
+.slogan{
+  color: #fff;
+  font-size: 20px;
+  background-color: rgba(225, 225, 225, 0.5);
+  line-height: 1em;
+  border-radius: 30px;
   padding: 10px;
-  text-align: center;
+  padding-bottom: 25px;
+  width: 45%;
+  margin: auto;
+}
+p{
+  color: #181937;
+  font-size: 22px;
+}
+p1 {
+  color: #181937;
+  font-size: 40px;
+}
+p2 {
+  color: #fff;
+  font-size: 18px;
 }
