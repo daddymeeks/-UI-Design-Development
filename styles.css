@@ -39,6 +39,7 @@ nav ul li a {
   text-decoration: none;
   font-size: 20px;
   padding: 8px;
+  font-weight: 900;
 
 }
 nav ul li a:hover {
@@ -70,6 +71,7 @@ footer {
 h1{
   font-size: 120px;
   color: #fff;
+
 }
 .slogan{
   color: #fff;
@@ -93,4 +95,18 @@ p1 {
 p2 {
   color: #fff;
   font-size: 18px;
+}
+
+.big_button{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  background-color: #8F94C1;
+  line-height: 1em;
+  border-radius: 30px;
+  padding: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 13%;
+  margin: auto;
 }
