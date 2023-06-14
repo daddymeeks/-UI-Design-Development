@@ -66,6 +66,9 @@ footer {
   text-align: left;
   margin-top: auto;
   position: relative; /* Add position relative */
+  display: flex; /* Add display flex */
+  justify-content: space-between; /* Align items to the edges */
+  align-items: center; /* Vertically center the content */
 }
 
 h1 {
@@ -115,25 +118,17 @@ p2 {
   margin: auto;
 }
 
-.social-icons {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-}
-
 .fa {
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
-  padding: 20px;
+  padding: 15px;
   font-size: 30px;
   width: 25px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  margin-left: 1590px;
-  margin-bottom: 10px;
 }
 
 .fa:hover {
@@ -152,6 +147,7 @@ p2 {
   color: white;
 }
 
+/* Instagram */
 .fa-instagram {
   background: #f09433; 
   background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
