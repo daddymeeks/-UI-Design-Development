@@ -99,6 +99,7 @@ p2 {
 
 .big_button{
   color: #fff;
+  text-decoration: none;
   font-size: 30px;
   font-weight: 900;
   background-color: #8F94C1;
