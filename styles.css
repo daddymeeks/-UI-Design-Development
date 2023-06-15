@@ -42,7 +42,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #8F94C1;
+  color: #8396ff;
 }
 
 .logo img {
@@ -80,13 +80,12 @@ h2 {
   font-size: 65px;
   color: #181937;
   margin:auto
-  background-col
 }
 
 .slogan {
   color: #fff;
   font-size: 20px;
-  background-color: rgba(225, 225, 225, 0.5);
+  background-color: rgba(225, 225, 225, 80%);
   line-height: 1em;
   border-radius: 30px;
   padding: 10px;
