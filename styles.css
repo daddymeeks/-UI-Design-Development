@@ -172,3 +172,21 @@ button .buttontext{
 button .buttontext:hover{
   color: #ffffff;
 }
+
+
+
+.package {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 1rem;
+
+}
+
+.packageitem{
+
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: grey;
+}
+
