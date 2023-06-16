@@ -149,7 +149,7 @@ p2 {
 }
 button{
   background-color: #014787;
-  color: black;
+  color: #fff;
   font-size: 30px;
   border-radius: 25px;
   font-weight: 700;
@@ -184,9 +184,21 @@ button .buttontext:hover{
 }
 
 .packageitem{
-
-  border: 1px solid black;
+  color: #fff;
   border-radius: 1rem;
-  background-color: grey;
+  background-color:#272727;
+  font-size: 10px;
+  height: 525px;
 }
 
+.packageitem button{
+  width: 300px;
+  font-size: 20px;
+
+}
+
+.packageitem img{
+  width: 650px;
+  height: 350px;
+  object-fit: cover;
+}
