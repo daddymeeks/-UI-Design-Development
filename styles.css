@@ -154,14 +154,14 @@ button{
   border-radius: 25px;
   font-weight: 700;
   padding: 15px;
-  width: 250px;
+  width: 210px;
   border: 0;
-  opacity: 80%;
+  
 }
 
 button:hover{
   background-color: #014787;
-  opacity: 100%;
+  opacity: 80%;
 }
 
 button .buttontext{
