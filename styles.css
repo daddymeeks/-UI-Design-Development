@@ -82,6 +82,11 @@ h2 {
   margin:auto
 }
 
+h3 {
+  color: white;
+  font-size: 20px;
+}
+
 .slogan {
   color: #fff;
   font-size: 20px;
@@ -179,7 +184,8 @@ button .buttontext:hover{
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
-  gap: 1rem;
+  gap: 2rem;
+  
 
 }
 
@@ -187,18 +193,23 @@ button .buttontext:hover{
   color: #fff;
   border-radius: 1rem;
   background-color:#272727;
-  font-size: 10px;
-  height: 525px;
+  height: 800px;
+  padding: 30px;
 }
 
 .packageitem button{
-  width: 300px;
+  width: 180px;
   font-size: 20px;
-
 }
 
 .packageitem img{
-  width: 650px;
-  height: 350px;
-  object-fit: cover;
+  width: auto;
+  height: 300px;
 }
+
+p3{
+font-size: 16px;
+line-height: 24px;
+
+}
+  
