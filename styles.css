@@ -200,16 +200,30 @@ button .buttontext:hover{
 .packageitem button{
   width: 180px;
   font-size: 20px;
+  border-radius: 10px;
 }
 
 .packageitem img{
-  width: auto;
+  width: 100%;
   height: 300px;
+  border-radius: 20px;
+  
 }
 
 p3{
 font-size: 16px;
 line-height: 24px;
 
+}
+
+h3{  
+  background-color: #014787;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 10px;
+  width: 180px;
+  height: 25px;
+  margin-left: 32%;
 }
   
