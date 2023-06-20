@@ -189,10 +189,10 @@ button .buttontext:hover{
 
 .packageitem{
   color: #fff;
-  border-radius: 1rem;
+  border-radius: 53px;
   background-color:#272727;
   height: 800px;
-  padding: 30px;
+  
 }
 
 .packageitem button{
@@ -204,8 +204,7 @@ button .buttontext:hover{
 .packageitem img{
   width: 100%;
   height: 300px;
-  border-radius: 20px;
-  
+  border-radius: 50px;
 }
 
 p3{
@@ -214,13 +213,14 @@ line-height: 24px;
 
 }
 
-h3{  
+.tourtitles{  
   background-color: #014787;
   color: #fff;
   border-radius: 10px;
   font-weight: 700;
   padding: 10px;
   width: 180px;
-  height: 25px;
-  margin-left: 32%;
+  height: auto;
+  margin-left: 170px;
+  position: absolute;
 }
