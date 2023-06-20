@@ -105,6 +105,7 @@ p {
 p1 {
   color: #181937;
   font-size: 23px;
+  line-height: 22px
 }
 
 p2 {
@@ -176,15 +177,11 @@ button .buttontext:hover{
   color: #ffffff;
 }
 
-
-
 .package {
-
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
   gap: 0.5rem;
   
-
 }
 
 .packageitem{
@@ -222,8 +219,9 @@ display: inline-block;
   border-radius: 10px;
   font-weight: 700;
   padding: 10px;
-  width: 180px;
+  width: 80px;
   height: auto;
-  margin-left: 240px;
   position: absolute;
+  text-align: center;
+
 }
