@@ -225,12 +225,18 @@ display: inline-block;
   display: inline-block;
 }
 
+
 }
 
 /* Tablet sizes */
 
 
 @media screen and (max-width: 992px) {
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
 
   header {
       background-color: #131313;
@@ -292,6 +298,11 @@ display: inline-block;
       align-items: center;
     }
     
+    h1 {
+      font-size: 2em;
+      color: white;
+    }
+
     h2 {    
       font-size: 65px;
       color: #100F28;
@@ -322,7 +333,7 @@ display: inline-block;
     
     p1 {
       color: #181937;
-      font-size: 23px;
+      font-size: 1em;
       line-height: 22px
     }
     
@@ -372,11 +383,11 @@ display: inline-block;
     button{
       background-color: #014787;
       color: #fff;
-      font-size: 30px;
+      font-size: 1em;
       border-radius: 25px;
       font-weight: 700;
       padding: 15px;
-      width: 210px;
+      width: 160px;
       border: 0;
     }
     
@@ -444,6 +455,10 @@ display: inline-block;
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
 
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
   header {
       background-color: #131313;
       color: #fff;
@@ -504,6 +519,11 @@ display: inline-block;
       align-items: center;
     }
     
+    h1 {
+      font-size: 2em;
+      color: white;
+    }
+
     h2 {    
       font-size: 65px;
       color: #100F28;
@@ -534,7 +554,7 @@ display: inline-block;
     
     p1 {
       color: #181937;
-      font-size: 23px;
+      font-size: 1em;
       line-height: 22px
     }
     
@@ -552,7 +572,6 @@ display: inline-block;
       font-size: 30px;
       width: 25px;
       text-align: center;
-      text-decoration: none;
       border-radius: 50%;
     }
     
@@ -584,11 +603,11 @@ display: inline-block;
     button{
       background-color: #014787;
       color: #fff;
-      font-size: 30px;
+      font-size: 1em;
       border-radius: 25px;
       font-weight: 700;
       padding: 15px;
-      width: 210px;
+      width: 150px;
       border: 0;
       
     }
