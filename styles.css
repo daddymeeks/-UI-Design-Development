@@ -183,7 +183,6 @@ button .buttontext:hover{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
   gap: 0.5rem;
-  
 }
 
 
@@ -192,7 +191,6 @@ button .buttontext:hover{
   border-radius: 53px;
   background-color:#272727;
   height: 800px;
-  
 }
 
 .packageitem button{
@@ -200,7 +198,6 @@ button .buttontext:hover{
   font-size: 20px;
   border-radius: 10px;
   display: inline-block;
-  
 }
 
 .packageitem img{
@@ -215,7 +212,6 @@ line-height: 20px;
 border-left: 30px solid transparent;
 border-right: 30px solid transparent;
 display: inline-block;
-
 }
 
 .tourtitles{  
@@ -230,7 +226,7 @@ display: inline-block;
 
 }
 
-/* tablet size */
+/* Tablet sizes */
 
 
 @media screen and (max-width: 992px) {
@@ -386,7 +382,6 @@ display: inline-block;
       padding: 15px;
       width: 210px;
       border: 0;
-      
     }
     
     button:hover{
@@ -410,21 +405,18 @@ display: inline-block;
       
     }
     
-    
     .packageitem{
       color: #fff;
       border-radius: 53px;
       background-color:#272727;
       height: 800px;
-      
     }
     
     .packageitem button{
       width: 180px;
       font-size: 20px;
       border-radius: 10px;
-      display: inline-block;
-      
+      display: inline-block;  
     }
     
     .packageitem img{
@@ -439,7 +431,6 @@ display: inline-block;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     display: inline-block;
-    
     }
     
     .tourtitles{  
@@ -459,7 +450,6 @@ display: inline-block;
   body {
     background-color: olive;
   }
-
 
   header {
       background-color: #131313;
@@ -629,16 +619,13 @@ display: inline-block;
       display: grid;
       grid-template-columns: 1fr ;
       gap: 0.5rem;
-      
     }
-    
-    
+      
     .packageitem{
       color: #fff;
       border-radius: 53px;
       background-color:#272727;
       height: 800px;
-      
     }
     
     .packageitem button{
@@ -646,7 +633,6 @@ display: inline-block;
       font-size: 20px;
       border-radius: 10px;
       display: inline-block;
-      
     }
     
     .packageitem img{
@@ -655,13 +641,12 @@ display: inline-block;
       border-radius: 50px;
     }
     
-    p3{
+    p3 {
     font-size: 16px;
     line-height: 20px;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     display: inline-block;
-    
     }
     
     .tourtitles{  
@@ -673,5 +658,4 @@ display: inline-block;
       text-align: center;
       display: inline-block;
     }
-  
 }
