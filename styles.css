@@ -77,6 +77,7 @@ nav ul li a:hover {
 main {
   padding: 20px;
   text-align: center;
+  background-color: #EBEBEB;
 }
 
 footer {
@@ -98,7 +99,7 @@ h1 {
 
 h2 {    
   font-size: 65px;
-  color: #181937;
+  color: #100F28;
   margin:auto
 }
 
