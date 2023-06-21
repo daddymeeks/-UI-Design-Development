@@ -206,7 +206,7 @@ button .buttontext:hover{
   
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .package {
     grid-template-columns: 1fr;
   }
