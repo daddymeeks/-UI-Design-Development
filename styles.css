@@ -17,9 +17,31 @@ header {
   color: #fff;
   padding: 10px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  header {
+  flex-direction: column;
+  }
+
+  h1 {
+    color: white;
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  
+  h1 {
+    color: white;
+    font-size: 6em;
+  }
+}
+
+
 
 nav ul {
   list-style-type: none;
@@ -68,11 +90,11 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-
+/* 
 h1 {
   font-size: 120px;
   color: #fff;
-}
+} */
 
 h2 {    
   font-size: 65px;
@@ -82,7 +104,7 @@ h2 {
 
 h3 {
   color: white;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .slogan {
@@ -184,6 +206,12 @@ button .buttontext:hover{
   
 }
 
+@media (max-width: 768px) {
+  .package {
+    grid-template-columns: 1fr;
+  }
+}
+
 .packageitem{
   color: #fff;
   border-radius: 53px;
@@ -214,14 +242,11 @@ display: inline-block;
 }
 
 .tourtitles{  
-  background-color: #272727;
+  background-color: transparent;
   color: #fff;
   border-radius: 10px;
-  font-weight: 700;
-  padding: 10px;
-  width: 80px;
+  width: 200px;
   height: auto;
-  position: absolute;
   text-align: center;
-
+  display: inline-block;
 }
