@@ -225,6 +225,29 @@ display: inline-block;
   display: inline-block;
 }
 
+form {
+  width:500px;
+  height:auto;
+  background:#272727;
+  border-radius:20px;
+  box-shadow:0 0 40px -10px #000;
+  margin:calc(50vh - 220px) auto;
+  padding:20px 30px;
+  max-width:calc(100vw - 40px);
+  box-sizing:border-box;
+  font-family:'Montserrat',sans-serif;
+  position:relative
+}
+form h2 {
+  color: white;
+  font-size: 2rem;
+  width:250px;
+}
+form p1 {
+color: #8F94C1;
+font-size: 20px;
+
+}
 
 }
 
