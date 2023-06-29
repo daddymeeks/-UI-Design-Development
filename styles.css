@@ -239,17 +239,66 @@ form {
   font-family:'Montserrat',sans-serif;
   position:relative
 }
-form h2 {
+form p5 {
   color: white;
   font-size: 2rem;
   width:250px;
+  font-weight: 700;
+  
 }
 form p1 {
 color: #8F94C1;
 font-size: 20px;
+} 
+
+form input{ 
+  width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2
+}
+
+input:focus{
+  border-bottom:2px solid #78788c
+}
+
+p:before{
+  content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a
+}
+
+form button{
+  padding:8px 12px;
+  margin:8px 0 0;
+  font-family:'Montserrat',sans-serif;
+  border:2px solid #78788c;
+  background:0;color:#5a5a6e;
+  cursor:pointer;
+  transition:all .3s;
+}
+
+form button:hover{
+  background:#78788c;color:#fff
+}
+form div{
+  content:'Hi';
+  position:absolute;
+  bottom:-50px;
+  background:#50505a;
+  color:#fff;
+  width:330px;
+  border-radius:6px;
+  font-size:11px;
+  box-shadow:10px 10px 40px -14px #000
+}
+
+form span{
+  color: white;
+  padding: -5px;
 
 }
 
+p4{
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+}
 }
 
 /* Tablet sizes */
